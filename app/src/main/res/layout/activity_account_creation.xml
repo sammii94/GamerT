@@ -10,12 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".login"
     android:background="@drawable/playstation">
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
+
     <LinearLayout
-        android:paddingTop="100dp"
+        android:paddingTop="70dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -37,13 +34,36 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:hint="Password"/>
-
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Confirm Password"/>
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Email"/>
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Confirm Email"/>
         <Button
             android:layout_marginTop="50dp"
             android:layout_width="300dp"
             android:layout_gravity="center"
             android:background="@drawable/buttonstylesselector"
-            android:text="Login"
+            android:text="Create Account"
             android:layout_height="60dp"
             android:textColor="#fff" />
     </LinearLayout>

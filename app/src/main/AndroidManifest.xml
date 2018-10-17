@@ -21,21 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".register" />
         <activity android:name=".explore" />
         <activity android:name=".popular" />
         <activity android:name=".new_page" />
         <activity android:name=".forum" />
         <activity android:name=".search" />
-        <activity
-            android:name=".login"
-            android:label="@string/title_activity_login" />
         <activity android:name=".settings" />
         <activity android:name=".newpost" />
         <activity android:name=".messages" />
         <activity android:name=".messaging" />
         <activity android:name=".profile" />
-        <activity android:name=".overlay"></activity>
+        <activity android:name=".overlay" />
+        <activity android:name=".login" />
+        <activity android:name=".account_creation"></activity>
     </application>
 
 </manifest>
